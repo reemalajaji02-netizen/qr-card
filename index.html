@@ -34,7 +34,7 @@
         /* Header */
         .header {
             background: linear-gradient(135deg, #2C6E59 0%, #287D5A 100%);
-            padding: 40px 35px;
+            padding: 25px 35px;
             text-align: center;
             position: relative;
             overflow: hidden;
@@ -61,7 +61,7 @@
             font-size: 1.75rem;
             font-weight: 700;
             line-height: 1.5;
-            margin-bottom: 10px;
+            margin-bottom: 0;
             position: relative;
             z-index: 1;
         }
@@ -158,14 +158,14 @@
         }
 
         .status-indicator {
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
+            padding: 6px 14px;
+            border-radius: 6px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1rem;
+            font-size: 0.85rem;
             font-weight: 700;
+            white-space: nowrap;
         }
 
         .before-section .status-indicator {
@@ -424,7 +424,6 @@
         <!-- Header -->
         <header class="header">
             <h1>كيف نتفادى فشل المشاريع التقنية مع البنية المؤسسية</h1>
-            <p class="header-subtitle">الطريق الأمثل لتنفيذ واعتماد الأفكار التقنية</p>
         </header>
 
         <!-- Character Introduction -->
@@ -435,6 +434,7 @@
             <div class="intro-text">
                 <h3>نورة - موظفة في كفاءة</h3>
                 <p>لديها فكرة جديدة لتحسين العمل أو مشكلة تحتاج إلى حل رقمي، فما هو الحل الأفضل برأيك؟</p>
+                <p style="margin-top: 8px; font-weight: 600; color: #2C6E59;">نورة لديها خيارين:</p>
             </div>
         </section>
 
@@ -443,7 +443,7 @@
             <!-- Before Section (Right) -->
             <section class="comparison-section before-section">
                 <div class="section-title">
-                    <div class="status-indicator">1</div>
+                    <div class="status-indicator">الحل الأول</div>
                     <h2>تبدأ بتنفيذ الفكرة فوراً</h2>
                 </div>
 
@@ -467,7 +467,7 @@
             <!-- After Section (Left) -->
             <section class="comparison-section after-section">
                 <div class="section-title">
-                    <div class="status-indicator">2</div>
+                    <div class="status-indicator">الحل الثاني</div>
                     <h2>تطرح فكرتها على البنية المؤسسية</h2>
                 </div>
 
